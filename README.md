@@ -1,16 +1,24 @@
-# Find-Falcon
-It is a Geektrust UI coding challenge to practice React js
+# Find Falcon
 
+Hi!
+#### It is a Geektrust UI coding challenge to practice React js
 
-#King Shan has received intelligence that Al Falcone is in hiding in one of these 6 planets - DonLon, Enchai, Jebing, 
-Sapir, Lerbin & Pingasor. However he has limited resources at his disposal & can send his army to only 4 of these 
-planets. 
-#This coding problem is to help King Shan find Al Falcone.
-#I have build a UI through which King Shan can 
-• select 4 planets to search (out of the total 6) 
-• select which space vehicles to send to these planets 
-• see how much time it will take for the vehicles to reach their targets & 
-• show final result of success or failure
+# About this Project
+King Shan has received intelligence that Al Falcone is in hiding in one of these 6 planets - DonLon, Enchai, Jebing, Sapir, Lerbin & Pingasor. However he has limited resources at his disposal & can send his army to only 4 of these planets. 
+
+This coding problem is to help King Shan find Al Falcone.
+
+I have build a UI through which King Shan can 
+	• select 4 planets to search (out of the total 6) 
+	• select which space vehicles to send to these planets 
+	• see how much time it will take for the vehicles to reach their targets & 
+	• show final result of success or failure
+  
+ #### Planet API Response:
+ ![image](https://user-images.githubusercontent.com/88143057/189544722-cdc5b6b9-fc83-4240-b9f8-0667d0b2a93a.png)
+ #### Vehicle API Response:
+ ![image](https://user-images.githubusercontent.com/88143057/189544754-d20544aa-6891-4a8d-9d7f-836125238509.png)
+
 
 ![image](https://user-images.githubusercontent.com/88143057/189544298-8ce8ee03-3301-4962-b3e6-f910b34ea4d7.png)
 

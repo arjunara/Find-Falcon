@@ -1,38 +1,112 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  background-color: rgb(240, 242, 243);
+  font-family: 'Courier New', Courier, monospace;
+}
+/* Header-style */
+.header{
+  height: 10vh;
+  background-color: rgb(190, 225, 207);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-bottom: 2px solid rgb(114, 113, 113);
+  display: flex;
+  justify-content: center;
+}
+.nav-bar{
+  width: 88%;
+  /* border: 1px solid red; */
+  padding:12px 0px ;
+}
+.nav-item-container{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  width:360px;
+  margin-left: auto;
+  height: 45px;
+}
+a{
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+a:hover{
+  color: rgb(255, 0, 106);
+}
+/* Home-stylecss */
+.title-container{
+  border: 1px solid red;
+  margin-top: 35px;
+  /* height: 80vh; */
+}
+.title-container h1{
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.title-container p{
+  font-size: 26px;
+  font-weight: 600;
+}
+.home-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  width: 100%;
+}
+.select-wrap{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Roboto';
+  font-size: 22px;
+  padding-top: 25px;
+  /* text-align: center; */
+}
+.select-container{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+.findBtn {
+  /* padding:8px; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  width: 160px;
+  height: 38px;
+  border: 1px solid #281490;
+  border-radius: 8px;
+  text-transform: uppercase;
+  background-color: rgb(154, 185, 185);
+  color: black;
+  margin-top: 55px;
+}
+.findBtn[disabled]{
+  opacity: 0.4;
+}
+.loading{
+  text-align: center;
+  font-size: 40px;
+  color: #281490;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.result-card{
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 80vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

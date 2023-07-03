@@ -5,6 +5,7 @@ const VehicleBar = ({ onChangeVehicle, vehicleList }) => {
   const onChangeOption = e => {
     onChangeVehicle(e.target.value);
   };
+  console.log('vehicle component is rendeted');
   return (
     <div className="vehicle-container">
       {/* {console.log('----render----', vehicleList)} */}

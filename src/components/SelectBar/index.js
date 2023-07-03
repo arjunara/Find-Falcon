@@ -1,10 +1,12 @@
-import React from 'react';
+import { React, memo } from 'react';
 
 const SelectBar = ({ dropData, vehicleList, onChangeVehicle, onChangePlanet, destination }) => {
   // console.log('----props', props)
   // const onChangeOption = e => {
   //   onChangeVehicle(e.target.value);
   // };
+  // console.log('select is rendered');
+  console.log();
   const selectPlanet = e => {
     onChangePlanet(e.target.value);
   };
@@ -28,4 +30,4 @@ const SelectBar = ({ dropData, vehicleList, onChangeVehicle, onChangePlanet, des
   );
 };
 
-export default SelectBar;
+export default memo(SelectBar);
